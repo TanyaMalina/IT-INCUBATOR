@@ -8,6 +8,9 @@ a = 7;
 var b;
 b = a;
 
+//5
+var a = 9;
+
 //6
 var myFirstName = "Tanya";
 var myLastName = "Malinovskaya";
