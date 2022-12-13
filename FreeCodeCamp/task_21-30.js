@@ -52,7 +52,17 @@
 }
 
 //26
-const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+{
+    const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+}
 
 //27
-const myStr = "This is the start."+" This is the end."; // Change this line
+{
+    const myStr = "This is the start." + " This is the end.";// Change this line
+}
+
+//28
+{
+    let myStr = "This is the first sentence. ";
+    myStr += "This is the second sentence.";
+}
