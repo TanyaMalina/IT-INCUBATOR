@@ -68,3 +68,11 @@ const quotient = 66 / 33;
 // Only change code below this line
     myVar--;
 }
+
+//17
+{
+    const ourDecimal = 5.7;
+
+// Only change code below this line
+    const myDecimal = 0.7;
+}
