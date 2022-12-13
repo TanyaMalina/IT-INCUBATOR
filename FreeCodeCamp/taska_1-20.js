@@ -76,3 +76,8 @@ const quotient = 66 / 33;
 // Only change code below this line
     const myDecimal = 0.7;
 }
+
+//18
+{
+    const product = 2.0 * 2.5;
+}
