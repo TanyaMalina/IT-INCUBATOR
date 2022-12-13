@@ -66,3 +66,10 @@
     let myStr = "This is the first sentence. ";
     myStr += "This is the second sentence.";
 }
+
+//29
+{
+    // Only change code below this line
+    const myName = "Tanya";
+    const myStr = "My name is " + myName + "I am well!";
+}
