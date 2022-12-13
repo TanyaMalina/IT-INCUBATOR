@@ -43,3 +43,6 @@ console.log(FCC, fact); // Change this line
 
 //11
 const sum = 10 + 10;
+
+//12
+const difference = 45 - 33;
