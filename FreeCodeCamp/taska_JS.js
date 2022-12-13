@@ -46,3 +46,6 @@ const sum = 10 + 10;
 
 //12
 const difference = 45 - 33;
+
+//13
+const product = 8 * 10;
