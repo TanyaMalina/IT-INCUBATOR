@@ -45,3 +45,8 @@
     b *= 3;
     c *= 10;
 }
+
+//25
+{
+    const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+}
