@@ -25,3 +25,12 @@ var c = "I am a";
 var studlyCapVar;
 var properCamelCase;
 var titleCaseOver;
+
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+//9
+let catName = "Oliver";
+let catSound = "Meow!";
