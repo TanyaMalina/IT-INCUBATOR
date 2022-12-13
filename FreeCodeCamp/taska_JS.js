@@ -14,3 +14,8 @@ var a = 9;
 //6
 var myFirstName = "Tanya";
 var myLastName = "Malinovskaya";
+
+//7
+var a = 5;
+var b = 10;
+var c = "I am a";
