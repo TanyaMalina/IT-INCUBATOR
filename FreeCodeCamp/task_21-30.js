@@ -73,3 +73,11 @@
     const myName = "Tanya";
     const myStr = "My name is " + myName + "I am well!";
 }
+
+//30
+{
+    // Change code below this line
+    const someAdjective = "good";
+    let myStr = "Learning to code is ";
+    myStr += someAdjective;
+}
