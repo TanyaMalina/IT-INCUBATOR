@@ -73,3 +73,9 @@
     // Only change code below this line
     const myArray = ["good", 5];
 }
+
+//39
+{
+    // Only change code below this line
+    const myArray = [[0,1],[2,3]];
+}
