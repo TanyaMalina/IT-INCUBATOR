@@ -67,3 +67,9 @@
     const wordBlanks = "My " + myAdjective +" "+ myNoun +" "+ myVerb +" "+ myAdverb + "."; // Change this line
 // Only change code above this line
 }
+
+//38
+{
+    // Only change code below this line
+    const myArray = ["good", 5];
+}
