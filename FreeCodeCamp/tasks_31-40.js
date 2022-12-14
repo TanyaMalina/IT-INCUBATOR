@@ -79,3 +79,9 @@
     // Only change code below this line
     const myArray = [[0,1],[2,3]];
 }
+
+//40
+{
+    const myArray = [50, 60, 70];
+    const myData = myArray[0];
+}
