@@ -45,3 +45,37 @@ function shortcut (string) {
 }
 
 shortcut('hello')
+
+//5
+var humanYearsCatYearsDogYears = function(humanYears) {
+    // Your code here!
+    const catYears  = 15 + ((humanYears >1)? 9 : 0) + ((humanYears >2) ? (humanYears -2)*4: 0)
+    const dogYears =15 + ((humanYears >1)? 9 : 0) + ((humanYears >2) ? (humanYears -2)*5: 0)
+
+    return [humanYears,catYears,dogYears];
+}
+
+humanYearsCatYearsDogYears(2)
+
+
+//6
+var summation = function (num) {
+    let sum = 0
+    for(let i=1; i<=num; i++){
+        sum += i
+    }
+
+    return sum
+}
+
+summation(8)
+
+
+//7
+function removeExclamationMarks(s) {
+    const str = s.replaceAll('!', '')
+
+    return str;
+}
+
+removeExclamationMarks("Hello World!")
