@@ -79,3 +79,34 @@ function removeExclamationMarks(s) {
 }
 
 removeExclamationMarks("Hello World!")
+
+
+//8
+function saleHotdogs(n){
+    let sum = 0;
+    if (n < 5) return n * 100
+    else if (n >= 5 && n < 10) return n * 95
+    else return n * 90
+}
+
+saleHotdogs(  5)
+
+
+//9
+var min = function(list){
+    return Math.min(...list);
+}
+
+var max = function(list){
+    return Math.max(...list);
+}
+
+min([-52, 56, 30, 29, -54, 0, -110])
+
+
+//10
+function invert(array) {
+    return array.map(item => -item);
+}
+
+invert([1,-2,3,-4,5])// [-1,2,-3,4,-5]
