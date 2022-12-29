@@ -110,3 +110,54 @@ function invert(array) {
 }
 
 invert([1,-2,3,-4,5])// [-1,2,-3,4,-5]
+
+
+//11
+function findMultiples(integer, limit) {
+    const arr = []
+
+    for(let i = integer; i <= limit; i += integer){
+        arr.push(i)
+    }
+
+    return arr
+}
+
+findMultiples(4, 27)// [4, 8, 12, 16, 20, 24]
+
+//12
+var Ball = function(ballType="regular") {
+    this.ballType= ballType;
+};
+
+ball1 = new Ball();
+ball2 = new Ball("super");
+
+ball1.ballType     //=> "regular"
+ball2.ballType     //=> "super"
+
+
+//13
+function sayHello(name) {
+    return 'Hello, ' + name
+}
+
+sayHello('Mr. Spock')// 'Hello, Mr. Spock'
+
+
+//14
+function isPalindrome(x) {
+    x = x.toLowerCase()
+    const xReverse = x.split('').reverse().join('')
+    return xReverse === x
+}
+
+isPalindrome("Bob")// true
+
+
+//15
+function evenOrOdd(number) {
+    return (number %2 ===0) ? "Even": "Odd"
+}
+
+evenOrOdd(2) //"Even"
